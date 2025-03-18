@@ -49,6 +49,7 @@ SPARTA has been evaluated on the following benchmark datasets:
 📌 **Northwestern Polytechnical University Campus (NWPUC)**  
 
 👉 **Preprocessed dataset links:** [Dataset Access Here](#)
+After downloading the data make sure to put it folder named data in the model directory. 
 
 ---
 ## 🎯 Training Instructions
