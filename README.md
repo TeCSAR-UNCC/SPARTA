@@ -73,11 +73,14 @@ python infer.py --video_path data/test_video.mp4 --model_path checkpoints/sparta
 ## Citation
 If you find this work useful, please cite:
 ```
-@article{posewatch2024,
-  title={Human-Centric Video Anomaly Detection Through Spatio-Temporal Pose Tokenization and Transformer},
-  author={Ghazal Alinezhad Noghre, Armin Danesh Pazho, Hamed Tabkhi},
-  journal={IEEE},
-  year={2024}
+@misc{noghre2025humancentricvideoanomalydetection,
+      title={Human-Centric Video Anomaly Detection Through Spatio-Temporal Pose Tokenization and Transformer}, 
+      author={Ghazal Alinezhad Noghre and Armin Danesh Pazho and Hamed Tabkhi},
+      year={2025},
+      eprint={2408.15185},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.15185}, 
 }
 ```
 
