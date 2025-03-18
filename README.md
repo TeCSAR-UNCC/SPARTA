@@ -84,13 +84,6 @@ python3 main.py --dataset [dataset_name] --branch SPARTA_H \
 ```
 
 ---
-## 📥 Pretrained Models
-
-You can download the pretrained SPARTA models from the following link:
-
-👉 **[Download Pretrained Models](#)**
-
----
 
 ## 📜 Citation
 If you find this work useful, please cite:
