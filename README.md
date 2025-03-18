@@ -41,6 +41,7 @@ SPARTA consists of:
 ---
 ## 📂 Datasets
 SPARTA has been evaluated on the following benchmark datasets:
+
 📌 **ShanghaiTech Campus (SHT)**  
 📌 **HR-ShanghaiTech (HR-SHT)**  
 📌 **Charlotte Anomaly Dataset (CHAD)**  
