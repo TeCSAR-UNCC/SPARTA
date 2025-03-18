@@ -38,8 +38,6 @@ SPARTA consists of:
 #### Figure 1: SPARTA Architecture
 ![SPARTA Architecture](figs/SPARTA.png)
 
-#### Figure 2: ST-PRP Tokenization Schema
-![ST-PRP Tokenization](figs/tokenization.png)
 
 ### Key Tables
 #### Table 1: Performance Comparison with Pose-Based Methods
