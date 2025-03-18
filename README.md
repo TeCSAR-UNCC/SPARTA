@@ -40,6 +40,7 @@ SPARTA consists of:
 
 ---
 ## 📂 Datasets
+
 SPARTA has been evaluated on the following benchmark datasets:
 
 📌 **ShanghaiTech Campus (SHT)**  
@@ -50,7 +51,7 @@ SPARTA has been evaluated on the following benchmark datasets:
 👉 **Preprocessed dataset links:** [Dataset Access Here](#)
 
 ---
-## 🎯 Training and Evaluation
+## 🎯 Training Instructions
 Each branch of SPARTA needs to be trained separately. **CTD must be trained first**, as its encoder is reused in the FTD branch.
 
 ### **Train CTD Branch**
@@ -83,6 +84,14 @@ python3 main.py --dataset [dataset_name] --branch SPARTA_H \
 ```
 
 ---
+## 📥 Pretrained Models
+
+You can download the pretrained SPARTA models from the following link:
+
+👉 **[Download Pretrained Models](#)**
+
+---
+
 ## 📜 Citation
 If you find this work useful, please cite:
 ```bibtex
