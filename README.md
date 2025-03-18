@@ -49,7 +49,7 @@ SPARTA has been evaluated on the following benchmark datasets:
 👉 **Preprocessed dataset links:** [Dataset Access Here](#)
 
 ---
-## 🎯 Training Instructions
+## 🎯 Training and Evaluation
 Each branch of SPARTA needs to be trained separately. **CTD must be trained first**, as its encoder is reused in the FTD branch.
 
 ### **Train CTD Branch**
