@@ -1,8 +1,8 @@
-# PoseWatch: Human-Centric Video Anomaly Detection
+# SPARTA
 
 ## Overview
 
-PoseWatch is a novel approach for **human-centric video anomaly detection (VAD)** utilizing **Spatio-Temporal Pose and Relative Pose (ST-PRP) tokenization** combined with a **transformer-based architecture, SPARTA**. This repository provides the implementation of the **SPARTA model**, which introduces an innovative **Unified Encoder Twin Decoders (UETD) Transformer** for enhanced anomaly detection in human activity videos.
+SPARTA is a novel approach for **human-centric video anomaly detection (VAD)** utilizing **Spatio-Temporal Pose and Relative Pose (ST-PRP) tokenization** combined with a **transformer-based architecture, SPARTA**. This repository provides the implementation of the **SPARTA model**, which introduces an innovative **Unified Encoder Twin Decoders (UETD) Transformer** for enhanced anomaly detection in human activity videos.
 
 This method outperforms existing pose-based anomaly detection techniques and competes with pixel-based approaches while ensuring better privacy and lower bias.
 
