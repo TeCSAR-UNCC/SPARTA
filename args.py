@@ -39,7 +39,7 @@ def init_parser(default_data_dir='data/', default_exp_dir='data/exp_dir'):
     parser.add_argument('--vid_path_test', type=str, default=None, help='Path to test vids')
     parser.add_argument('--pose_path_test', type=str, default=None, help='Path to test pose')
     parser.add_argument('--dataset', type=str, default='ShanghaiTech',
-                        choices=['ShanghaiTech', 'ShanghaiTech-HR', 'UBnormal', 'c1', 'c2', 'c3', 'c4', 'combined', 'CPCC0','CPCC1','CPCC2','CPCC3','CPCC4','CPCC5','CPCC6', 'CPCC', 'corridor', 'Avenue', 'NWPUC'], help='Dataset for Eval')
+                        choices=['ShanghaiTech', 'ShanghaiTech-HR', 'UBnormal', 'c1', 'c2', 'c3', 'c4', 'CHAD', 'CPCC0','CPCC1','CPCC2','CPCC3','CPCC4','CPCC5','CPCC6', 'CPCC', 'corridor', 'Avenue', 'NWPUC'], help='Dataset for Eval')
     parser.add_argument('--vid_res', type=str, default=None, help='Video Res')
     parser.add_argument('--device', type=str, default='cuda:0', metavar='DEV', help='Device for feature calculation (default: \'cuda:0\')')
     parser.add_argument('--seed', type=int, metavar='S', default=999, help='Random seed, use 999 for random (default: 999)')
@@ -80,7 +80,7 @@ def init_parser(default_data_dir='data/', default_exp_dir='data/exp_dir'):
     parser.add_argument('--model_num_layers', default=4, type=int, help='number of hidden layers')
     parser.add_argument('--model_num_heads', default=2, type=int, help='Number of heads in the transformer module')
     parser.add_argument('--sched', type=str, default='tri', metavar='AE_SCH', help="Optimization LR scheduler (default: 'tri')")
-    parser.add_argument('--model_loss', type=str, default='mse', choices=['mse', 'emd', 'spec', 'ssim', 'cos', 'combined'], help='Loss function')
+    parser.add_argument('--model_loss', type=str, default='mse', choices=['mse', 'emd', 'spec', 'ssim', 'cos', 'CHAD'], help='Loss function')
     parser.add_argument('--model_a', type=float, default=1.0, metavar='a', help='MSE multiplier')
     parser.add_argument('--model_b', type=float, default=1.0, metavar='b', help='Cosine multiplier')
     parser.add_argument('--model_c', type=float, default=1.0, metavar='c', help='EMD multiplier')

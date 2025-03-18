@@ -175,7 +175,7 @@ def gen_dataset(person_json_root, num_clips=None, kp18_format=True, ret_keys=Fal
     dataset = dataset_args.get('dataset', 'ShanghaiTech')
 
     dir_list = os.listdir(person_json_root)
-    if dataset=='c1' or dataset=='c2' or dataset=='c3' or dataset=='c4' or dataset=='combined' or dataset=='NWPUC' or dataset=='CPCC' or dataset=='CPCC0' or dataset=='CPCC1' or dataset=='CPCC2' or dataset=='CPCC3' or dataset=='CPCC4' or dataset=='CPCC5' or dataset=='CPCC6' or dataset=='corridor' or dataset=='Avenue':
+    if dataset=='c1' or dataset=='c2' or dataset=='c3' or dataset=='c4' or dataset=='CHAD' or dataset=='NWPUC' or dataset=='CPCC' or dataset=='CPCC0' or dataset=='CPCC1' or dataset=='CPCC2' or dataset=='CPCC3' or dataset=='CPCC4' or dataset=='CPCC5' or dataset=='CPCC6' or dataset=='corridor' or dataset=='Avenue':
         json_list = sorted([fn for fn in dir_list])
     else:
         json_list = sorted([fn for fn in dir_list if fn.endswith('tracked_person.json')])

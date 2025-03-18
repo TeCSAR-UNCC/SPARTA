@@ -81,7 +81,7 @@ def gen_clip_seg_data_np(clip_dict, start_ofst=0, seg_stride=4, seg_len=24, scen
                                                                                             clip_id=clip_id,
                                                                                             single_score_np=sing_scores_np,
                                                                                             dataset=dataset)
-        if dataset == 'c1' or dataset == 'c2' or dataset == 'c3'or dataset == 'c4' or dataset == 'combined' or dataset=='NWPUC' or dataset=='CPCC' or dataset=='CPCC0' or dataset=='CPCC1' or dataset=='CPCC2' or dataset=='CPCC3' or dataset=='CPCC4' or dataset=='CPCC5' or dataset=='CPCC6' or dataset == 'Avenue':
+        if dataset == 'c1' or dataset == 'c2' or dataset == 'c3'or dataset == 'c4' or dataset == 'CHAD' or dataset=='NWPUC' or dataset=='CPCC' or dataset=='CPCC0' or dataset=='CPCC1' or dataset=='CPCC2' or dataset=='CPCC3' or dataset=='CPCC4' or dataset=='CPCC5' or dataset=='CPCC6' or dataset == 'Avenue':
             curr_pose_score_np = np.zeros(curr_pose_score_np.shape) 
         pose_segs_data.append(curr_pose_segs_np)
         score_segs_data.append(curr_pose_score_np)
