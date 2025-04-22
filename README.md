@@ -1,4 +1,4 @@
-# 🌟 SPARTA: Human-Centric Video Anomaly Detection
+# 🌟 SPARTA (Previously named PoseWatch): Human-Centric Video Anomaly Detection
 
 ## 🔍 Overview
 
