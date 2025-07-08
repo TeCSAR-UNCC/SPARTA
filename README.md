@@ -26,7 +26,7 @@ SPARTA consists of:
    - 🔵 **Future Target Decoder (FTD)**
 
 ### 🔹 Figure 1: SPARTA Architecture
-![SPARTA Architecture](figs/SPARTA.png)
+![SPARTA Architecture](figs/SPARTA_corrected.png)
 
 ---
 ## 📊 Experimental Results
